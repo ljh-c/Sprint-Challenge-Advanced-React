@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 data-testid="title">Women's World Cup players ranked by search interest from Google Trends, June-July 2019, worldwide</h1>
       <button onClick={toggleDarkMode}>toggle dark mode</button>
       <Players />
 

@@ -21,7 +21,7 @@ class Players extends React.Component {
     return (
       <div className="players">
         {this.state.players.map(player =>
-          <div className="player-card" key={player.id}>
+          <div className="player-card" key={player.id} data-testid={`player-${player.id}`}>
             <h2>{player.name}</h2>
             <p>{player.country}</p>
             <h4>{player.searches}</h4>
